@@ -1,0 +1,128 @@
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 14px;
+    color: black;
+    background-color: white;
+}
+
+.image-stuff img{
+    width: 100%;
+    max-width: 600px;
+    background-size: cover;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline;
+}
+
+#main-body{
+    margin-top: 0;
+    margin-right: 70px;
+    margin-bottom: 0;
+    margin-left: 675px;
+}
+
+.ion-navicon-round{
+    font-size: 34px;
+    float: right;
+}
+
+.ion-navicon-round:hover{
+    cursor: pointer;
+    color: orange;
+    font-size: 34px;
+    float: right;
+}
+
+.job-title {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.job-title img{
+    width: 450px;
+    float: center;
+}
+
+.job-title h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 0 0 10px 0;
+    border-bottom: 3px solid rgb(219,46, 32);
+}
+
+.job-title h2{
+    font-size: 25px;
+}
+
+.job-summary p{
+    font-size: 18px;
+}
+
+.link-logos span{
+    display: inline;
+    float: left;
+    margin: 11px 0 5px 0;
+    font-size: 34px;
+    color: black;
+}
+
+.link-logos p{
+    float: left;
+    font-size: 20px;
+    padding: 0 25px 0 10px;
+    color: black;
+}
+
+#more-info{
+    color: black;
+    background-color: white;
+    border-left: solid 2px darkgrey;
+    width: 0px;
+    transition: 0.25s;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
+.option-list{
+    padding: 0 0 0 40px;
+    margin: 0;
+    line-height: 15px;
+    font-size: 30px;
+}
+
+.option-list a{
+    text-decoration: none;
+    color: black;
+}
+.option-list a:last-child{
+    color: red;
+}
+.option-list a:hover{
+    color: orange;
+}
+.option-list p{
+}
+
+.options-bottom{
+    position: absolute;
+    bottom: 35px;
+    padding: 0 0 0 40px;
+    margin: 0;
+    line-height: 15px;
+    font-size: 20px;
+}
+.options-bottom a{
+    text-decoration: none;
+    color: black;
+}
+.options-bottom a:hover{
+    color: orange;
+}
+.options-bottom p{
+}
