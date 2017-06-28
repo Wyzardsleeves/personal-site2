@@ -12,6 +12,7 @@ html {
     max-width: 600px;
     background-size: cover;
     height: auto;
+    min-height: 100%;
     position: absolute;
     left: 0;
     top: 0;
