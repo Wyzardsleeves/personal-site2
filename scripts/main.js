@@ -2,7 +2,7 @@
 var rightPanel = document.getElementById("more-info");
 var threeBar = document.getElementsByClassName("ion-navicon-round")[0];
 var centralBody = document.getElementById("main-body");
-var rightPanelContents = 
+var rightPanelContents =
               '<div class="option-list">'
             + '    <a href=\"index.html\"><p>Home</p>'
             + '    <a href="about.html"><p>About</p></a>'
@@ -33,3 +33,7 @@ rightPanel.addEventListener("mouseleave", function(){
     rightPanel.style.display = "none";
     centralBody.style.marginRight = "70px";
 });
+
+var projectList = function(name, desc, image, url){
+  
+};
