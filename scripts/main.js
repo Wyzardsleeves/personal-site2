@@ -6,7 +6,7 @@ var rightPanelContents =
               '<div class="option-list">'
             + '    <a href=\"index.html\"><p>Home</p>'
             + '    <a href="about.html"><p>About</p></a>'
-            + '    <p>Projects</p>'
+            + '    <a href="projects.html"><p>Projects</p></a>'
             + '    <a href="https://sites.google.com/site/jlattimor3/concept-art/motion-graphics-and-design" target="_blank"><p>Graphics</p></a>'
             + '    <a href="hireme.html"><p>Hire Me</p></a>'
             + '</div>'
