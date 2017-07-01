@@ -5,25 +5,33 @@
         <title>Justin Lattimore</title>
         <meta name="viewport" content="width=device-width, intital-scale=1">
         <link rel="stylesheet" type="text/css" href="styles/main.css">
-        <link rel="stylesheet" type="text/css" href="styles/hireme.css">
+        <link rel="stylesheet" type="text/css" href="styles/projects.css">
         <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed|Rationale" rel="stylesheet">
     </head>
     <body>
         <section id="main-body">
             <span class="ion-navicon-round"></span>
-            <div class="who-i-am">
+            <div class="project-summary">
                 <p>Projects that I have worked on!</p>
             </div>
             <div class="project-list">
-              <ul class="project">
-                <li>Projects will go in here</li>
-              </ul>
+              <!-- This is going to be moved to js -->
+              <a href="http://jlattimoreweb.blogspot.com/">
+                <div class="project">
+                  <img src="assets/exampleThumb.png">
+                  <div class="project-info">
+                    <h5>Project's name will go in here</h5>
+                    <h5>Project's description will go here</h5>
+                  </div>
+                </div>
+              </a>
             </div>
         </section>
         <section id="more-info">
             <!-- Javascript handled in 'main.js' -->
         </section>
+        <script src="scripts/project_fixtures.js"></script>
         <script src="scripts/main.js"></script>
         <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
     </body>

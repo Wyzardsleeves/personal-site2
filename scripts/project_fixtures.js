@@ -11,3 +11,12 @@ var blocItOff = {
   projectImageUrl: '',
   projectUrl: ''
 };
+
+ var blocChat = {
+   title: 'Bloc Chat',
+   description: '',
+   projectImageUrl: '',
+   projectUrl: ''
+};
+
+var projectEntries = [blocPong, blocItOff, blocChat];
