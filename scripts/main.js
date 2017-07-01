@@ -34,10 +34,11 @@ rightPanel.addEventListener("mouseleave", function(){
   centralBody.style.marginRight = "70px";
 });
 
-//adds objects to project list
+//adds entries to project list
 var projectList = function(project){
-  var contents =
+  var contents = '';
   for(var i = 0; i < project.length; i++){
+    contents +=
       '<a href=' + project[i].projectUrl + '>'
     + ' <div class="project">'
     + '   <img src=' + project[i].projectImageUrl + '>'
@@ -48,8 +49,13 @@ var projectList = function(project){
     + ' </div>'
     + '</a'
     ;
+
+    //theoretically skips a line
+    if(i % 3 == 0){
+      contents += '<br/>';
+    }
   }
-  return contents
+  return contents;
 }
 
 var projectContents = document.getElementsByClassName("project-list")[0];
