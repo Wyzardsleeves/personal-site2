@@ -43,8 +43,10 @@ html {
 }
 
 .job-title img{
-    width: 450px;
-    float: center;
+  width: 450px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 .job-title h1{

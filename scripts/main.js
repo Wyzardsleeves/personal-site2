@@ -50,13 +50,13 @@ var projectList = function(project){
     + '</a'
     ;
 
-    //theoretically skips a line
+    //theoretically skips a line every 3 entries
     if(i % 3 == 0){
       contents += '<br/>';
     }
   }
   return contents;
-}
+};
 
 var projectContents = document.getElementsByClassName("project-list")[0];
 
