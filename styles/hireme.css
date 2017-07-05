@@ -1,4 +1,22 @@
-img {
-    border-radius: 100%;
-    width: 120px;
+body{
+  width: 100%;
+}
+
+.portrait-info img{
+  border-radius: 100%;
+  width: 140px;
+}
+
+.portrait-info h3{
+
+}
+
+.hireme-main h3{
+  text-align: center;
+  font-size: 32px;
+}
+
+.hireme-main p{
+  text-align: center;
+  font-size: 20px;
 }
