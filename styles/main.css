@@ -63,8 +63,8 @@ html {
 .job-summary p{
     font-size: 18px;
 }
-
-.link-logos span{
+/* */
+.link-logos i{
     display: inline;
     float: left;
     margin: 11px 0 5px 0;
