@@ -7,7 +7,7 @@ var rightPanelContents =
   + '    <a href=\"index.html\"><p>Home</p>'
   + '    <a href="about.html"><p>About</p></a>'
   + '    <a href="projects.html"><p>Projects</p></a>'
-  + '    <a href="https://sites.google.com/site/jlattimor3/concept-art/motion-graphics-and-design" target="_blank"><p>Graphics</p></a>'
+  + '    <a href="graphics.html"><p>Graphics</p></a>'
   + '    <a href="hireme.html"><p>Hire Me</p></a>'
   + '</div>'
   + '<div class="options-bottom">'
@@ -49,11 +49,6 @@ var projectList = function(project){
     + ' </div>'
     + '</a'
     ;
-
-    //theoretically skips a line every 3 entries
-    if(i % 3 == 0){
-      contents += '<br/>';
-    }
   }
   return contents;
 };
@@ -61,6 +56,6 @@ var projectList = function(project){
 var projectContents = document.getElementsByClassName("project-list")[0];
 
 window.onload = function(){
+  //populates a list of projects
   projectContents.innerHTML = projectList(projectEntries);
-
 };

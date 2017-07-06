@@ -12,7 +12,7 @@ var blocItOff = {
   projectUrl: ''
 };
 
- var blocChat = {
+var blocChat = {
    title: 'Bloc Chat',
    description: 'An Angularfire powered chatroom.',
    projectImageUrl: 'assets/facebookThumb.png',
