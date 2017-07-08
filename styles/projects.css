@@ -15,6 +15,20 @@ body{
   display: inline;
   float: left;
 }
+.project-title{
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+.project-title h2{
+  font-size: 32px;
+  border-bottom: 2px solid gray;
+}
+
+.project-description h5{
+  font-size: 20px;
+}
+
 .project-info{
   float: left;
   padding: 0 0 10px 0;
