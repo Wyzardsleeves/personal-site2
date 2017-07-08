@@ -24,6 +24,7 @@ html {
     margin-right: 70px;
     margin-bottom: 0;
     margin-left: 70px;
+    transition: 0.25s ease; /* transitions */
 }
 
 .ion-navicon-round{
@@ -84,12 +85,11 @@ html {
     background-color: white;
     border-left: solid 2px darkgrey;
     width: 0px;
-    transition: 0.25s;
+    transition: width 0.25s ease;
     height: 100%;
     position: absolute;
     right: 0;
     top: 0;
-    display: none;
 }
 
 .option-list{

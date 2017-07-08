@@ -30,11 +30,10 @@ threeBar.addEventListener("click" , function(){
 rightPanel.addEventListener("mouseleave", function(){
   rightPanel.innerHTML = "";
   rightPanel.style.width = "0px";
-  rightPanel.style.display = "none";
   centralBody.style.marginRight = "70px";
 });
 
-//adds entries to project list
+//adds entries to project list on project.html
 var projectList = function(project){
   var contents = '';
   for(var i = 0; i < project.length; i++){

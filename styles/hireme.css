@@ -3,20 +3,33 @@ body{
 }
 
 .portrait-info img{
+  float: left;
   border-radius: 100%;
   width: 140px;
+  padding: 0 10px 0 0;
+}
+
+.portrait-info h3:first-child{
+  float: left;
 }
 
 .portrait-info h3{
-
+  margin: 20px 0 0 0;
+  line-height: 10px;
 }
 
 .hireme-main h3{
-  text-align: center;
+  margin: 150px 0 0 0;
+  border-bottom: 2px solid orange;
+  width: 200px;
   font-size: 32px;
 }
 
 .hireme-main p{
-  text-align: center;
   font-size: 20px;
+}
+
+.resume{
+  display: block;
+  margin: 0 auto;
 }

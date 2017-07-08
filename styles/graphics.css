@@ -1,6 +1,13 @@
 body{
 
 }
+
+.graphics-heading{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .vid{
   text-align: center;
 }
