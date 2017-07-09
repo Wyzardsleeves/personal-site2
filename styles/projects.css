@@ -18,11 +18,13 @@ body{
 .project-title{
   display: block;
   margin: 0 auto;
-  width: 100px;
+  text-align: center;
+  width: 100%;
 }
 .project-title h2{
-  font-size: 32px;
-  border-bottom: 2px solid gray;
+  font-size: 40px;
+  padding: 0 0 5px 0;
+  border-bottom: 3px solid grey;
 }
 
 .project-description h5{
