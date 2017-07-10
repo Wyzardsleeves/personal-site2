@@ -4,10 +4,12 @@ body{
 
 .graphics-heading{
   text-align: center;
+  border-bottom: 3px solid yellow;
   font-family: 'Open Sans', sans-serif;
 }
 
 .graphics-heading h2{
+  margin: 0 0 5px 0;
   font-size: 40px;
 }
 
@@ -15,6 +17,7 @@ body{
   text-align: center;
 }
 .vid iframe{
+  padding: 20px 0 0 0;
   width: 1120px;
   height: 630px;
 }

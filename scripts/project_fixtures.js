@@ -1,21 +1,21 @@
 var blocPong = {
   title: 'Bloc Pong',
   description: 'Pong game made with html5 canvas.',
-  projectImageUrl: 'assets/exampleThumb.png',
+  projectImageUrl: 'assets/blocPong.png',
   projectUrl: ''
 };
 
 var blocItOff = {
   title: 'Bloc It Off',
   description: 'An Angularfire powered checklist.',
-  projectImageUrl: 'assets/operaThumb.png',
+  projectImageUrl: 'assets/blocItOff.png',
   projectUrl: ''
 };
 
 var blocChat = {
    title: 'Bloc Chat',
    description: 'An Angularfire powered chatroom.',
-   projectImageUrl: 'assets/facebookThumb.png',
+   projectImageUrl: 'assets/blocChat.png',
    projectUrl: ''
 };
 
