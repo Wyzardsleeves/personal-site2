@@ -38,7 +38,7 @@ var projectList = function(project){
   var contents = '';
   for(var i = 0; i < project.length; i++){
     contents +=
-      '<a href=' + project[i].projectUrl + '>'
+      '<a href=' + project[i].projectUrl + ' target="_blank">'
     + ' <div class="project">'
     + '   <img src=' + project[i].projectImageUrl + '>'
     + '   <div class="project-info">'
@@ -46,7 +46,7 @@ var projectList = function(project){
     + '     <h5>' + project[i].description + '</h5>'
     + '   </div>'
     + ' </div>'
-    + '</a'
+    + '</a>'
     ;
   }
   return contents;

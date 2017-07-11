@@ -2,21 +2,21 @@ var blocPong = {
   title: 'Bloc Pong',
   description: 'Pong game made with html5 canvas.',
   projectImageUrl: 'assets/blocPong.png',
-  projectUrl: ''
+  projectUrl: 'https://wyzardsleeves.github.io/bloc-pong/'
 };
 
 var blocItOff = {
   title: 'Bloc It Off',
   description: 'An Angularfire powered checklist.',
   projectImageUrl: 'assets/blocItOff.png',
-  projectUrl: ''
+  projectUrl: 'https://github.com/Wyzardsleeves/blocitoff'
 };
 
 var blocChat = {
    title: 'Bloc Chat',
    description: 'An Angularfire powered chatroom.',
    projectImageUrl: 'assets/blocChat.png',
-   projectUrl: ''
+   projectUrl: 'https://github.com/Wyzardsleeves/bloc-chat'
 };
 
 var projectEntries = [blocPong, blocItOff, blocChat];
