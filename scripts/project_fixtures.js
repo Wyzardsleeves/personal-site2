@@ -16,7 +16,7 @@ var blocChat = {
    title: 'Bloc Chat',
    description: 'An Angularfire powered chatroom.',
    projectImageUrl: 'assets/blocChat.png',
-   projectUrl: 'https://github.com/Wyzardsleeves/bloc-chat'
+   projectUrl: 'https://fathomless-sands-94333.herokuapp.com/'
 };
 
 var projectEntries = [blocPong, blocItOff, blocChat];
