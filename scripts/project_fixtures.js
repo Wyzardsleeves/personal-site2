@@ -9,7 +9,7 @@ var blocItOff = {
   title: 'Bloc It Off',
   description: 'An Angularfire powered checklist.',
   projectImageUrl: 'assets/blocItOff.png',
-  projectUrl: 'https://github.com/Wyzardsleeves/blocitoff'
+  projectUrl: 'https://lit-everglades-16755.herokuapp.com/'
 };
 
 var blocChat = {
