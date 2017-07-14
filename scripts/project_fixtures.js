@@ -19,4 +19,11 @@ var blocChat = {
    projectUrl: 'https://fathomless-sands-94333.herokuapp.com/'
 };
 
-var projectEntries = [blocPong, blocItOff, blocChat];
+var blocipedia = {
+  title: 'Blocipedia',
+  description: 'Ruby on Rails Wikipedia-ish app.',
+  projectImageUrl: 'assets/blocipedia.png',
+  projectUrl: 'https://github.com/Wyzardsleeves/blocipedia'
+};
+
+var projectEntries = [blocPong, blocItOff, blocChat, blocipedia];
