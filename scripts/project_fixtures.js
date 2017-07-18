@@ -13,7 +13,7 @@ var blocItOff = {
 };
 
 var blocChat = {
-   title: 'Bloc awieosfjast',
+   title: 'Bloc Chat',
    description: 'An Angularfire powered chatroom.',
    projectImageUrl: 'assets/blocChat.png',
    projectUrl: 'https://fathomless-sands-94333.herokuapp.com/'
