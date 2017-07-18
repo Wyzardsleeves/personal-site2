@@ -23,7 +23,7 @@ var blocipedia = {
   title: 'Blocipedia (under contruction)',
   description: 'Ruby on Rails Wikipedia-ish app.',
   projectImageUrl: 'assets/blocipedia.png',
-  projectUrl: 'https://fierce-eyrie-33350.herokuapp.com/'
+  projectUrl: 'https://blocipedia-wyzard.herokuapp.com/'
 };
 
 var projectEntries = [blocPong, blocItOff, blocChat, blocipedia];
