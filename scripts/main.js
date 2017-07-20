@@ -4,7 +4,7 @@ var threeBar = document.getElementsByClassName("ion-navicon-round")[0];
 var centralBody = document.getElementById("main-body");
 var rightPanelContents =
     '<div class="option-list">'
-  + '    <a href=\"index.html\"><p>Home</p>'
+  + '    <a href="index.html"><p>Home</p></a>'
   //+ '    <a href="about.html"><p>About</p></a>'
   + '    <a href="projects.html"><p>Projects</p></a>'
   + '    <a href="graphics.html"><p>Graphics</p></a>'
@@ -39,7 +39,7 @@ var projectList = function(project){
   for(var i = 0; i < project.length; i++){
     contents +=
       '<a href=' + project[i].projectUrl + ' target="_blank">'
-    + ' <div class="project">'
+    + ' <div class="col-md-6 project">'
     + '   <img src=' + project[i].projectImageUrl + '>'
     + '   <div class="project-info">'
     + '     <h5>' + project[i].title + '</h5>'
