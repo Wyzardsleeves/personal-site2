@@ -23,13 +23,13 @@ body{
 }
 
 .hireme-main h3{
-  margin: 100px 0 0 0;
+  padding: 0 0 10px 0;
+  margin: 100px 0 10px 0;
   text-align: center;
   border-bottom: 3px solid orange;
   width: 100%;
   font-size: 40px;
 }
-
 .hireme-main p{
   font-size: 20px;
 }

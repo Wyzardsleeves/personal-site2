@@ -55,9 +55,16 @@ var projectList = function(project){
   return contents;
 };
 
+//populates a list of projects
 var projectContents = document.getElementsByClassName("project-list")[0];
+projectContents.innerHTML = projectList(projectEntries);
 
 window.onload = function(){
-  //populates a list of projects
-  projectContents.innerHTML = projectList(projectEntries);
+  
+  //updates sidebar during scrolldown (on index page)
+  window.addEventListener("scroll", function(event) {
+    var scrollDistance = parseInt(window.pageYOffset);
+    rightPanel.style.marginTop = scrollDistance.toString() + "px";
+    //console.log(scrollDistance);
+  });
 };
