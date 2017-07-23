@@ -7,7 +7,7 @@ var rightPanelContents =
     '<div class="option-list">'
   + '    <a href="index.html"><p>Home</p></a>'
   //+ '    <a href="about.html"><p>About</p></a>'
-  + '    <a href="projects.html"><p>Projects</p></a>'
+  //+ '    <a href="projects.html"><p>Projects</p></a>'
   + '    <a href="graphics.html"><p>Graphics</p></a>'
   + '    <a href="hireme.html"><p>Hire Me</p></a>'
   + '</div>'

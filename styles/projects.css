@@ -1,3 +1,4 @@
+/*
 .project-list{
   font-family: 'Rationale', sans-serif;
 }
@@ -23,7 +24,7 @@
   border-bottom: 3px solid grey;
 }
 
-.project-description h5{
+.project-description p{
   font-size: 20px;
 }
 
@@ -36,7 +37,7 @@
   font-size: 24px;
   padding: 10px 10px 0 0;
 }
-/*
+
 .option-list{
   margin-top: 25px;
   padding: 0 0 0 40px;
