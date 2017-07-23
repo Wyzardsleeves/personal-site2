@@ -25,7 +25,7 @@ threeBar.addEventListener("click" , function(){
   rightPanel.style.width = "300px";
   rightPanel.style.display = "block";
   centralBody.style.marginRight = "370px";
-  projectBody.style.marginRight = "370px";
+  //projectBody.style.marginRight = "370px";
 });
 
 
@@ -33,7 +33,7 @@ rightPanel.addEventListener("mouseleave", function(){
   rightPanel.innerHTML = "";
   rightPanel.style.width = "0px";
   centralBody.style.marginRight = "70px";
-  projectBody.style.marginRight = "70px";
+  //projectBody.style.marginRight = "70px";
 });
 
 //adds entries to project list on project.html
@@ -55,16 +55,17 @@ var projectList = function(project){
   return contents;
 };
 
-//populates a list of projects
 var projectContents = document.getElementsByClassName("project-list")[0];
-projectContents.innerHTML = projectList(projectEntries);
 
 window.onload = function(){
-  
+
   //updates sidebar during scrolldown (on index page)
   window.addEventListener("scroll", function(event) {
     var scrollDistance = parseInt(window.pageYOffset);
     rightPanel.style.marginTop = scrollDistance.toString() + "px";
     //console.log(scrollDistance);
   });
+
+  //populates a list of projects
+  projectContents.innerHTML = projectList(projectEntries);
 };
