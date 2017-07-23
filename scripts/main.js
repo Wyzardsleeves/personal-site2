@@ -1,7 +1,8 @@
 //Handles the contents of the right bar on all pages
 var rightPanel = document.getElementById("more-info");
 var threeBar = document.getElementsByClassName("ion-navicon-round")[0];
-var centralBody = document.getElementById("main-body");
+var centralBody = document.getElementById("about-body");
+var projectBody = document.getElementById("project-body");
 var rightPanelContents =
     '<div class="option-list">'
   + '    <a href="index.html"><p>Home</p></a>'
@@ -24,6 +25,7 @@ threeBar.addEventListener("click" , function(){
   rightPanel.style.width = "300px";
   rightPanel.style.display = "block";
   centralBody.style.marginRight = "370px";
+  projectBody.style.marginRight = "370px";
 });
 
 
@@ -31,6 +33,7 @@ rightPanel.addEventListener("mouseleave", function(){
   rightPanel.innerHTML = "";
   rightPanel.style.width = "0px";
   centralBody.style.marginRight = "70px";
+  projectBody.style.marginRight = "70px";
 });
 
 //adds entries to project list on project.html
@@ -39,7 +42,7 @@ var projectList = function(project){
   for(var i = 0; i < project.length; i++){
     contents +=
       '<a href=' + project[i].projectUrl + ' target="_blank">'
-    + ' <div class="col-md-6 project">'
+    + ' <div class="col-md-5 project">'
     + '   <img src=' + project[i].projectImageUrl + '>'
     + '   <div class="project-info">'
     + '     <h5>' + project[i].title + '</h5>'

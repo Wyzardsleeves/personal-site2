@@ -7,6 +7,7 @@ html {
     background-color: white;
 }
 
+/*
 .image-stuff img{
     width: 100%;
     max-width: 600px;
@@ -18,13 +19,11 @@ html {
     top: 0;
     display: inline;
 }
+*/
 
-#main-body{
-    margin-top: 0;
-    margin-right: 70px;
-    margin-bottom: 0;
-    margin-left: 70px;
-    transition: 0.25s ease; /* transitions */
+#about-body{
+    margin: 25px 70px 75px 70px;
+    transition: 0.25s ease;
 }
 
 .ion-navicon-round{
@@ -35,26 +34,24 @@ html {
 .ion-navicon-round:hover{
     cursor: pointer;
     color: orange;
-    font-size: 34px;
-    float: right;
 }
 
 .job-title {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .job-title img{
-  width: 450px;
+  width: 300px;
   border-radius: 50%;
   display: block;
   margin: 0 auto;
 }
 
 .job-title h1{
-    text-align: center;
-    font-size: 40px;
-    padding: 0 0 10px 0;
-    border-bottom: 3px solid rgb(219,46, 32);
+  text-align: center;
+  font-size: 40px;
+  padding: 0 0 10px 0;
+  border-bottom: 3px solid rgb(219,46, 32);
 }
 
 .job-title h2{
@@ -64,22 +61,68 @@ html {
 .job-summary p{
     font-size: 18px;
 }
-/* */
+
+.link-logos{
+  display: inline;
+}
 .link-logos i{
-    display: inline;
-    float: left;
-    margin: 11px 0 5px 0;
-    font-size: 34px;
-    color: black;
+  display: inline;
+  float: left;
+  font-size: 34px;
+  color: black;
 }
-
 .link-logos p{
-    float: left;
-    font-size: 20px;
-    padding: 0 25px 0 10px;
-    color: black;
+  display: inline;
+  float: left;
+  font-size: 20px;
+  padding: 10px 25px 0 10px;
+  color: black;
 }
 
+/* Project stuff */
+#project-body{
+    margin: 0 70px 0 70px;
+    transition: 0.25s ease; /* transitions */
+}
+.project-list{
+  font-family: 'Rationale', sans-serif;
+}
+.project{
+  margin: 10px 10px 0 0;
+  display: block;
+}
+.project img{
+  margin: 0 10px 0 0;
+  height: 110px;
+  display: inline;
+  float: left;
+}
+.project-title{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+.project-title h2{
+  font-size: 40px;
+  padding: 0 0 5px 0;
+  border-bottom: 3px solid grey;
+}
+
+.project-description h5{
+  font-size: 20px;
+}
+
+.project-info{
+  float: left;
+  padding: 0 0 10px 0;
+}
+.project-info h5{
+  font-size: 24px;
+  padding: 0 0 0 0;
+}
+
+/* Sidebar stuff */
 #more-info{
     color: black;
     background-color: white;
@@ -128,4 +171,17 @@ html {
     color: orange;
 }
 .options-bottom p{
+}
+
+.option-list{
+  margin-top: 25px;
+  padding: 0 0 0 40px;
+  line-height: 35px;
+  font-size: 30px;
+}
+.option-list a:hover{
+  text-decoration: none;
+}
+.options-bottom{
+  line-height: 25px;
 }
