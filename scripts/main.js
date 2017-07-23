@@ -25,7 +25,7 @@ threeBar.addEventListener("click" , function(){
   rightPanel.style.width = "300px";
   rightPanel.style.display = "block";
   centralBody.style.marginRight = "370px";
-  //projectBody.style.marginRight = "370px";
+  projectBody.style.marginRight = "370px";
 });
 
 
@@ -33,7 +33,7 @@ rightPanel.addEventListener("mouseleave", function(){
   rightPanel.innerHTML = "";
   rightPanel.style.width = "0px";
   centralBody.style.marginRight = "70px";
-  //projectBody.style.marginRight = "70px";
+  projectBody.style.marginRight = "70px";
 });
 
 //adds entries to project list on project.html
