@@ -2,6 +2,26 @@ body{
 
 }
 
+.portrait-info img{
+  float: left;
+  border-radius: 100%;
+  width: 140px;
+  padding: 0 10px 0 0;
+}
+
+.portrait-info h3:nth-child(2){
+  padding: 20px 0 0 0;
+  font-size: 24px;
+}
+.portrait-info h3:nth-child(3){
+  font-size: 18px;
+}
+
+.portrait-info h3{
+  margin: 20px 0 0 0;
+  line-height: 10px;
+}
+
 .graphics-heading{
   text-align: center;
   border-bottom: 3px solid yellow;
@@ -9,7 +29,7 @@ body{
 }
 
 .graphics-heading h2{
-  margin: 0 0 5px 0;
+  margin: 100px 0 5px 0;
   font-size: 40px;
 }
 
