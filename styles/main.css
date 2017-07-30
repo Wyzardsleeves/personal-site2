@@ -36,8 +36,6 @@ html {
     color: orange;
 }
 
-
-
 .job-title img{
   width: 300px;
   border-radius: 50%;
@@ -83,11 +81,13 @@ html {
   transition: 0.25s ease; /* transitions */
 }
 .project-list{
+  display: table;
   font-family: 'Rationale', sans-serif;
 }
 .project{
+  min-width: 500px; /* keeping unit together */
   margin: 10px 10px 0 0;
-  display: block;
+  display: table-cell;
 }
 .project img{
   margin: 0 10px 0 0;
