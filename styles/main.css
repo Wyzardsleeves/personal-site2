@@ -59,7 +59,12 @@ html {
 }
 
 .link-logos{
-  display: inline;
+  float: left;
+  display: table;
+}
+.link-block{
+  float: left;
+  display: table-cell;
 }
 .link-logos i{
   display: inline;
