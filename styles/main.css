@@ -188,3 +188,11 @@ html {
 .options-bottom{
   line-height: 25px;
 }
+
+@media(min-width: 640px){
+  html{ font-size: 112%; }
+}
+
+@media(min-width: 1024px){
+  html{ font-size: 120%; }
+}

@@ -41,3 +41,12 @@ body{
   width: 1120px;
   height: 630px;
 }
+
+
+@media(min-width: 640px){
+  html{ font-size: 112%; }
+}
+
+@media(min-width: 1024px){
+  html{ font-size: 120%; }
+}
