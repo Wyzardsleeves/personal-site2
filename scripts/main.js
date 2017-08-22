@@ -6,10 +6,8 @@ var projectBody = document.getElementById("project-body");
 var rightPanelContents =
     '<div class="option-list">'
   + '    <a href="index.html"><p>Home</p></a>'
-  //+ '    <a href="about.html"><p>About</p></a>'
-  //+ '    <a href="projects.html"><p>Projects</p></a>'
   + '    <a href="graphics.html"><p>Graphics</p></a>'
-  + '    <a href="hireme.html"><p>Hire Me</p></a>'
+  + '    <a href="hireme.html"><p style="color: red;">Hire Me</p></a>'
   + '</div>'
   + '<div class="options-bottom">'
   + '    <a href="https://www.linkedin.com/in/justin-lattimore-90387445" target="_blank"><p>LinkedIn</p></a>'
@@ -21,13 +19,27 @@ var rightPanelContents =
 ;
 
 threeBar.addEventListener("click" , function(){
-  rightPanel.innerHTML = rightPanelContents;
-  rightPanel.style.width = "300px";
-  rightPanel.style.display = "block";
-  centralBody.style.marginRight = "370px";
-  projectBody.style.marginRight = "370px";
+  if(rightPanel.style.width == 0){
+    rightPanel.innerHTML = rightPanelContents;
+    rightPanel.style.width = "300px";
+    rightPanel.style.display = "block";
+    centralBody.style.marginRight = "370px";
+    projectBody.style.marginRight = "370px";
+  }
+  else if(centralBody.style.marginRight == "70px"){
+    rightPanel.innerHTML = rightPanelContents;
+    rightPanel.style.width = "300px";
+    rightPanel.style.display = "block";
+    centralBody.style.marginRight = "370px";
+    projectBody.style.marginRight = "370px";
+  }
+  else{
+    rightPanel.innerHTML = "";
+    rightPanel.style.width = "0px";
+    centralBody.style.marginRight = "70px";
+    projectBody.style.marginRight = "70px";
+  }
 });
-
 
 rightPanel.addEventListener("mouseleave", function(){
   rightPanel.innerHTML = "";
@@ -36,13 +48,30 @@ rightPanel.addEventListener("mouseleave", function(){
   projectBody.style.marginRight = "70px";
 });
 
+/* Old stuff
+threeBar.addEventListener("click" , function(){
+  rightPanel.innerHTML = rightPanelContents;
+  rightPanel.style.width = "300px";
+  rightPanel.style.display = "block";
+  centralBody.style.marginRight = "370px";
+  projectBody.style.marginRight = "370px";
+});
+
+rightPanel.addEventListener("mouseleave", function(){
+  rightPanel.innerHTML = "";
+  rightPanel.style.width = "0px";
+  centralBody.style.marginRight = "70px";
+  projectBody.style.marginRight = "70px";
+});
+*/
+
 //adds entries to project list on project.html
 var projectList = function(project){
   var contents = '';
   for(var i = 0; i < project.length; i++){
     contents +=
       '<a href=' + project[i].projectUrl + ' target="_blank">'
-    + ' <div class="col-md-5 project">'
+    + ' <div class="project">'  //col-md-5
     + '   <img src=' + project[i].projectImageUrl + '>'
     + '   <div class="project-info">'
     + '     <h5>' + project[i].title + '</h5>'
@@ -58,14 +87,12 @@ var projectList = function(project){
 var projectContents = document.getElementsByClassName("project-list")[0];
 
 window.onload = function(){
-
   //updates sidebar during scrolldown (on index page)
   window.addEventListener("scroll", function(event) {
     var scrollDistance = parseInt(window.pageYOffset);
     rightPanel.style.marginTop = scrollDistance.toString() + "px";
     //console.log(scrollDistance);
   });
-
   //populates a list of projects
   projectContents.innerHTML = projectList(projectEntries);
 };

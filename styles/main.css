@@ -1,39 +1,64 @@
-html {
-    font-family: 'Roboto Condensed', sans-serif;
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-    color: black;
-    background-color: white;
+*{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  color: black;
+  background-color: white;
 }
 
-/*
-.image-stuff img{
-    width: 100%;
-    max-width: 600px;
-    background-size: cover;
-    height: auto;
-    min-height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    display: inline;
+html {
+
 }
-*/
+
+/* top part mobile */
+.test-hide{
+  display: none;
+}
+
+#very-top{
+  display: none;
+  width: 100%;
+  font-size: 150%;
+  display: inline-block;
+  border-bottom: 2px solid grey;
+}
+#very-top a{
+  color: black;
+}
+#very-top i{
+  font-size: 175%;
+  padding: 0 3% 0 3%;
+}
+#very-top p{
+  font-size: 140%;
+  padding: 0 3% 0 3%;
+}
+#very-top i:active{
+  color: orange;
+}
+#very-top p:active{
+  color: orange;
+}
+
+
+/* ---------------- */
+
 
 #about-body{
-    margin: 25px 70px 100px 70px;
-    transition: 0.25s ease;
+  margin: 25px 70px 100px 70px;
+  transition: 0.25s ease;
+  display: block;
 }
 
 .ion-navicon-round{
-    font-size: 34px;
-    float: right;
+  font-size: 250%;
+  float: right;
 }
 
 .ion-navicon-round:hover{
-    cursor: pointer;
-    color: orange;
+  cursor: pointer;
+  color: orange;
 }
 
 .job-title img{
@@ -43,19 +68,19 @@ html {
   margin: 0 auto;
 }
 
-.job-title h1{
+.job-title h2{
+  font-size: 320%;
   text-align: center;
-  font-size: 40px;
   padding: 0 0 10px 0;
   border-bottom: 3px solid rgb(219,46, 32);
 }
 
-.job-title h2{
-    font-size: 25px;
+.job-title h3{
+  font-size: 150%;
 }
 
 .job-summary p{
-    font-size: 18px;
+  font-size: 120%;
 }
 
 .link-logos{
@@ -69,14 +94,15 @@ html {
 .link-logos i{
   display: inline;
   float: left;
-  font-size: 34px;
+  font-size: 250%;
+  padding: 0;
   color: black;
 }
 .link-logos p{
   display: inline;
   float: left;
-  font-size: 20px;
-  padding: 10px 25px 0 10px;
+  font-size: 120%;
+  padding: 12.5px 25px 0 10px;
   color: black;
 }
 
@@ -95,6 +121,7 @@ html {
   display: table-cell;
 }
 .project img{
+  padding: 0;
   margin: 0 10px 0 0;
   height: 110px;
   display: inline;
@@ -107,22 +134,29 @@ html {
   width: 100%;
 }
 .project-title h2{
-  font-size: 40px;
+  font-size: 300%;
   padding: 0 0 5px 0;
   border-bottom: 3px solid grey;
 }
 
 .project-description p{
-  font-size: 18px;
+  font-size: 120%;
 }
 
 .project-info{
   float: left;
   padding: 0 0 10px 0;
 }
+
 .project-info h5{
-  font-size: 24px;
+  color: rgb(85, 85, 85);
+  font-size: 150%;
   padding: 0 0 0 0;
+}
+
+.project-info h5:first-child{
+  font-size: 180%;
+  padding: 10px 0 0 0;
 }
 
 /* Sidebar stuff */
@@ -144,13 +178,9 @@ html {
     line-height: 15px;
     font-size: 30px;
 }
-
 .option-list a{
     text-decoration: none;
     color: black;
-}
-.option-list a:last-child{
-    color: red;
 }
 .option-list a:hover{
     color: orange;
@@ -189,10 +219,189 @@ html {
   line-height: 25px;
 }
 
-@media(min-width: 640px){
-  html{ font-size: 112%; }
+
+@media(max-width: 840px){
+  html{ font-size: 100%; }
+
+  .test-hide{
+    width: 100%;
+    display: inline-block;
+  }
+
+  #very-top{
+    display: inline-block;
+  }
+
+  #very-top a{
+    color: black;
+  }
+
+  #very-top i, #very-top p{
+    display: inline-block;;
+  }
+
+  #very-top i{
+    font-size: 175%;
+  }
+
+  #about-body .ion-navicon-round{
+    display: none;
+  }
+
+  .right-side{
+    display: none;
+  }
+
+  .job-title img{
+    max-width: 200px;
+  }
+  .job-title h2{
+    font-size: 200%;
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 3px solid rgb(219,46, 32);
+  }
+  .job-title h3{
+    font-size: 150%;
+  }
+
+  .project-title h2{
+    font-size: 200%;
+    padding: 0 0 5px 0;
+    border-bottom: 3px solid grey;
+  }
+
+  .more-info{
+    display: none;
+  }
+
+  .link-logos i{
+    display: inline;
+    float: left;
+    font-size: 250%;
+    padding: 0 15px 0 0;
+    color: black;
+  }
+  .link-logos i:active{
+    color: orange;
+  }
+  .link-logos p{
+    display: none;
+    font-size: 120%;
+    padding: 12.5px 25px 0 10px;
+    color: black;
+  }
+
+  .project-list{
+    width: 100%;
+    display: table;
+  }
+  .project{
+    display: table-cell;
+    min-width: 120px; /* keeping unit together */
+  }
+  .project img{
+    padding: 10px;
+    height: 25%;
+    width: 120px;
+    height: auto;
+    display: inline;
+  }
+  .project-info{
+    display: none;
+  }
 }
 
-@media(min-width: 1024px){
-  html{ font-size: 120%; }
+@media(max-width: 480px){
+  html{ font-size: 85%; }
+
+  .test-hide{
+    width: 100%;
+    display: inline-block;
+  }
+
+  #very-top{
+    display: inline-block;
+  }
+
+  #very-top a{
+    color: black;
+  }
+
+  #very-top i, #very-top p{
+    display: inline-block;;
+  }
+
+  #very-top i{
+    font-size: 175%;
+  }
+
+  #about-body .ion-navicon-round{
+    display: none;
+  }
+
+  .right-side{
+    display: none;
+  }
+
+  .job-title img{
+    max-width: 200px;
+  }
+  .job-title h2{
+    font-size: 200%;
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 3px solid rgb(219,46, 32);
+  }
+  .job-title h3{
+    font-size: 150%;
+  }
+
+  .project-title h2{
+    font-size: 200%;
+    padding: 0 0 5px 0;
+    border-bottom: 3px solid grey;
+  }
+
+  .more-info{
+    display: none;
+  }
+
+  .link-logos i{
+    display: inline;
+    float: left;
+    font-size: 250%;
+    padding: 0 15px 0 0;
+    color: black;
+  }
+  .link-logos i:active{
+    color: orange;
+  }
+  .link-logos p{
+    display: none;
+    float: left;
+    font-size: 120%;
+    padding: 12.5px 25px 0 10px;
+    color: black;
+  }
+
+  .project-list{
+    width: 60px;
+    margin: 0 auto;
+  }
+  .project{
+    min-width: 120px; /* keeping unit together */
+    margin: 0 auto;
+  }
+  .project img{
+    padding: 10px;
+    height: 25%;
+    width: 120px;
+    height: auto;
+    display: inline;
+    float: left;
+  }
+  .project-info{
+    display: none;
+  }
 }
