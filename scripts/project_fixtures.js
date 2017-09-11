@@ -19,6 +19,13 @@ var mockChat = {
    projectUrl: 'https://fathomless-sands-94333.herokuapp.com/'
 };
 
+var psdTest1 = {
+  title: 'PSD test #1',
+  description: 'PSD to HTML exercise',
+  projectImageUrl: 'assets/psd-1-logo.png',
+  projectUrl: 'https://wyzardsleeves.github.io/psd-exercise-1/'
+};
+
 var mockipedia = {
   title: 'Mockipedia (under contruction)',
   description: 'Ruby on Rails Wikipedia-ish app.',
@@ -26,4 +33,4 @@ var mockipedia = {
   projectUrl: 'https://blocipedia-wyzard.herokuapp.com/'
 };
 
-var projectEntries = [mockPong, mockItOff, mockChat, mockipedia];
+var projectEntries = [mockPong, mockItOff, mockChat, psdTest1, mockipedia];
