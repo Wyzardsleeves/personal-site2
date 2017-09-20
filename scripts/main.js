@@ -87,12 +87,14 @@ var projectList = function(project){
 var projectContents = document.getElementsByClassName("project-list")[0];
 
 window.onload = function(){
+  /* Old way of fixing sidebar
   //updates sidebar during scrolldown (on index page)
   window.addEventListener("scroll", function(event) {
     var scrollDistance = parseInt(window.pageYOffset);
     rightPanel.style.marginTop = scrollDistance.toString() + "px";
     //console.log(scrollDistance);
   });
+  */
   //populates a list of projects
   projectContents.innerHTML = projectList(projectEntries);
 };
