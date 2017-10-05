@@ -10,11 +10,11 @@ var rightPanelContents =
   + '    <a href="hireme.html"><p style="color: red;">Hire Me</p></a>'
   + '</div>'
   + '<div class="options-bottom">'
+  + '    <a href="https://www.youtube.com/channel/UCLn0jCRt_zJfsMhR1WFswzw" target="_blank"><p>Youtube</p></a>'
   + '    <a href="https://www.linkedin.com/in/justin-lattimore-90387445" target="_blank"><p>LinkedIn</p></a>'
   + '    <a href="https://github.com/Wyzardsleeves" target="_blank"><p>Github</p></a>'
   + '    <a href="https://www.instagram.com/justinlattimore/" target="_blank"><p>Instagram</p></a>'
   + '    <a href="http://codepen.io/Wyzardsleeves/" target="_blank"><p>CodePen</p></a>'
-  + '    <a href="http://jlattimoreweb.blogspot.com/" target="_blank"><p>Blog</p></a>'
   + '</div>'
 ;
 
