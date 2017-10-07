@@ -15,6 +15,7 @@ var rightPanelContents =
   + '    <a href="https://github.com/Wyzardsleeves" target="_blank"><p>Github</p></a>'
   + '    <a href="https://www.instagram.com/justinlattimore/" target="_blank"><p>Instagram</p></a>'
   + '    <a href="http://codepen.io/Wyzardsleeves/" target="_blank"><p>CodePen</p></a>'
+  + '    <a href="https://steemit.com/@justinthedev" target="_blank"><p>Steemit Blog</p></a>'
   + '</div>'
 ;
 
