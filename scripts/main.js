@@ -10,7 +10,9 @@ var rightPanelContents =
   + '    <a href="hireme.html"><p style="color: red;">Hire Me</p></a>'
   + '</div>'
   + '<div class="options-bottom">'
+  /* Youtube phase out
   + '    <a href="https://www.youtube.com/channel/UCLn0jCRt_zJfsMhR1WFswzw" target="_blank"><p>Youtube</p></a>'
+  */
   + '    <a href="https://www.linkedin.com/in/justin-lattimore-90387445" target="_blank"><p>LinkedIn</p></a>'
   + '    <a href="https://github.com/Wyzardsleeves" target="_blank"><p>Github</p></a>'
   + '    <a href="https://www.instagram.com/justinlattimore/" target="_blank"><p>Instagram</p></a>'
@@ -49,23 +51,6 @@ rightPanel.addEventListener("mouseleave", function(){
   projectBody.style.marginRight = "70px";
 });
 
-/* Old stuff
-threeBar.addEventListener("click" , function(){
-  rightPanel.innerHTML = rightPanelContents;
-  rightPanel.style.width = "300px";
-  rightPanel.style.display = "block";
-  centralBody.style.marginRight = "370px";
-  projectBody.style.marginRight = "370px";
-});
-
-rightPanel.addEventListener("mouseleave", function(){
-  rightPanel.innerHTML = "";
-  rightPanel.style.width = "0px";
-  centralBody.style.marginRight = "70px";
-  projectBody.style.marginRight = "70px";
-});
-*/
-
 //adds entries to project list on project.html
 var projectList = function(project){
   var contents = '';
@@ -88,14 +73,5 @@ var projectList = function(project){
 var projectContents = document.getElementsByClassName("project-list")[0];
 
 window.onload = function(){
-  /* Old way of fixing sidebar
-  //updates sidebar during scrolldown (on index page)
-  window.addEventListener("scroll", function(event) {
-    var scrollDistance = parseInt(window.pageYOffset);
-    rightPanel.style.marginTop = scrollDistance.toString() + "px";
-    //console.log(scrollDistance);
-  });
-  */
-  //populates a list of projects
   projectContents.innerHTML = projectList(projectEntries);
 };
