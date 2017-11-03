@@ -1,3 +1,10 @@
+var cryptoCentral = {
+  title: 'Crypto Central',
+  description: 'React.js project using AJAX.',
+  projectImageUrl: 'assets/cc-home-logo.png',
+  projectUrl: 'https://crypto-central-co.herokuapp.com/'
+};
+
 var mockPong = {
   title: 'Mock Pong',
   description: 'Pong game made with html5 canvas.',
@@ -33,4 +40,4 @@ var mockipedia = {
   projectUrl: 'https://blocipedia-wyzard.herokuapp.com/'
 };
 
-var projectEntries = [mockPong, mockItOff, mockChat, psdTest1, mockipedia];
+var projectEntries = [cryptoCentral, mockPong, mockItOff, mockChat, psdTest1, mockipedia];
