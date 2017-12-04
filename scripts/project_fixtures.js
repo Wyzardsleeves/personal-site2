@@ -47,4 +47,4 @@ var mockipedia = {
   projectUrl: 'https://blocipedia-wyzard.herokuapp.com/'
 };
 
-var projectEntries = [cryptoCentral, theHnp, mockPong, mockItOff, mockChat, psdTest1, mockipedia];
+var projectEntries = [cryptoCentral, mockipedia, mockPong, mockItOff, mockChat, psdTest1];
