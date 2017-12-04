@@ -1,3 +1,10 @@
+var theHnp = {
+  title: 'The HNP',
+  description: 'Ruby on Rails gaming site',
+  projectImageUrl: 'assets/hnp-logo.jpg',
+  projectUrl: 'https://thehnp.herokuapp.com/'
+};
+
 var cryptoCentral = {
   title: 'Crypto Central',
   description: 'React.js project using AJAX.',
@@ -34,10 +41,10 @@ var psdTest1 = {
 };
 
 var mockipedia = {
-  title: 'Mockipedia (under contruction)',
+  title: 'Mockipedia is a Wikipedia clone',
   description: 'Ruby on Rails Wikipedia-ish app.',
   projectImageUrl: 'assets/mockipedia.png',
   projectUrl: 'https://blocipedia-wyzard.herokuapp.com/'
 };
 
-var projectEntries = [cryptoCentral, mockPong, mockItOff, mockChat, psdTest1, mockipedia];
+var projectEntries = [cryptoCentral, theHnp, mockPong, mockItOff, mockChat, psdTest1, mockipedia];
