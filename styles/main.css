@@ -115,6 +115,9 @@ html {
   display: table;
   font-family: 'Rationale', sans-serif;
 }
+.project-contain{
+  margin: 0 auto;
+}
 .project{
   min-width: 500px; /* keeping unit together */
   margin: 10px 10px 0 0;

@@ -19,6 +19,13 @@ var mockPong = {
   projectUrl: 'https://wyzardsleeves.github.io/bloc-pong/'
 };
 
+var shoePromo = {
+  title: 'Shoe Promo Email',
+  description: 'Practice Email HTML using Mail Chimp',
+  projectImageUrl: 'assets/shoe.png',
+  projectUrl: 'https://codepen.io/Wyzardsleeves/pen/MXKmmb/'
+};
+
 var mockItOff = {
   title: 'Mock It Off',
   description: 'An Angularfire powered checklist.',
@@ -47,4 +54,4 @@ var mockipedia = {
   projectUrl: 'https://blocipedia-wyzard.herokuapp.com/'
 };
 
-var projectEntries = [cryptoCentral, mockipedia, mockPong, mockItOff, mockChat, psdTest1];
+var projectEntries = [cryptoCentral, mockipedia, mockPong, shoePromo, mockItOff, mockChat, psdTest1];
