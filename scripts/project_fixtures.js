@@ -47,6 +47,13 @@ var psdTest1 = {
   projectUrl: 'https://wyzardsleeves.github.io/psd-exercise-1/'
 };
 
+var emailPractice2 = {
+  title: 'Email Exercise 2',
+  description: 'Table based email html',
+  projectImageUrl: 'assets/email-icon-symbol-vector.png',
+  projectUrl: 'https://wyzardsleeves.github.io/email-exercise-2/'
+};
+
 var mockipedia = {
   title: 'Mockipedia is a Wikipedia clone',
   description: 'Ruby on Rails Wikipedia-ish app.',
@@ -54,4 +61,4 @@ var mockipedia = {
   projectUrl: 'https://blocipedia-wyzard.herokuapp.com/'
 };
 
-var projectEntries = [cryptoCentral, mockipedia, mockPong, shoePromo, mockItOff, mockChat, psdTest1];
+var projectEntries = [cryptoCentral, emailPractice2, mockipedia, mockPong, shoePromo, mockItOff, mockChat, psdTest1];
