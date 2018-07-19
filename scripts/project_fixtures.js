@@ -55,10 +55,17 @@ var emailPractice2 = {
 };
 
 var mockipedia = {
-  title: 'Mockipedia is a Wikipedia clone',
+  title: 'Mockipedia',
   description: 'Ruby on Rails Wikipedia-ish app.',
   projectImageUrl: 'assets/mockipedia.png',
   projectUrl: 'https://blocipedia-wyzard.herokuapp.com/'
 };
 
-var projectEntries = [cryptoCentral, emailPractice2, mockipedia, mockPong, shoePromo, mockItOff, mockChat, psdTest1];
+var fortressDefenders = {
+  title: 'Fortress Defenders',
+  description: 'First ever MERN app.',
+  projectImageUrl: 'assets/fortress_defenders.png',
+  projectUrl: 'https://fortress-defenders.herokuapp.com/'
+};
+
+var projectEntries = [fortressDefenders, cryptoCentral, emailPractice2, mockipedia, mockPong, shoePromo, mockItOff, mockChat, psdTest1];
