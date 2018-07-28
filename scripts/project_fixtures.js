@@ -68,4 +68,11 @@ var fortressDefenders = {
   projectUrl: 'https://fortress-defenders.herokuapp.com/'
 };
 
-var projectEntries = [fortressDefenders, cryptoCentral, emailPractice2, mockipedia, mockPong, shoePromo, mockItOff, mockChat, psdTest1];
+var youBookEmail = {
+  title: 'Youbook Email',
+  description: 'Youbook email newsletter',
+  projectImageUrl: 'assets/email_decal.png',
+  projectUrl: 'https://wyzardsleeves.github.io/youbook-email/'
+};
+
+var projectEntries = [fortressDefenders, cryptoCentral, youBookEmail, emailPractice2, mockipedia, mockPong, shoePromo, mockItOff, mockChat, psdTest1];
