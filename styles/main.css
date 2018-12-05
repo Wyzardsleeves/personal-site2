@@ -8,7 +8,7 @@
 }
 
 html {
-
+  scroll-behavior: smooth;
 }
 
 /* top part mobile */
@@ -51,9 +51,26 @@ html {
   display: block;
 }
 
+#hireme-body{
+  margin: 25px 70px 100px 70px;
+  transition: 0.25s ease;
+  display: block;
+}
+
+#graphics-body{
+  margin: 25px 70px 100px 70px;
+  transition: 0.25s ease;
+  display: block;
+}
+
 .ion-navicon-round{
-  font-size: 250%;
+  background: none;
+  display: inline-block;
+  position: fixed;
+  top: 20px;
+  right: 40px;
   float: right;
+  font-size: 250%;
 }
 
 .ion-navicon-round:hover{
@@ -91,6 +108,9 @@ html {
   float: left;
   display: table-cell;
 }
+.link-block:hover{
+  color: orange;
+}
 .link-logos i{
   display: inline;
   float: left;
@@ -106,6 +126,7 @@ html {
   color: black;
 }
 
+
 /* Project stuff */
 #project-body{
   margin: 0 70px 0 70px;
@@ -114,6 +135,8 @@ html {
 .project-list{
   display: table;
   font-family: 'Rationale', sans-serif;
+  margin: 0 auto;
+  text-align: center;
 }
 .project-contain{
   margin: 0 auto;
@@ -122,6 +145,7 @@ html {
   min-width: 500px; /* keeping unit together */
   margin: 10px 10px 0 0;
   display: table-cell;
+  text-align: left;
 }
 .project img{
   padding: 0;
@@ -253,6 +277,14 @@ html {
     display: none;
   }
 
+  #hireme-body{
+    display: none;
+  }
+
+  #graphics-body{
+    display: none;
+  }
+
   .right-side{
     display: none;
   }
@@ -342,6 +374,14 @@ html {
   }
 
   #about-body .ion-navicon-round{
+    display: none;
+  }
+
+  #hireme-body{
+    display: none;
+  }
+
+  #graphics-body{
     display: none;
   }
 

@@ -2,12 +2,15 @@
 var rightPanel = document.getElementById("more-info");
 var threeBar = document.getElementsByClassName("ion-navicon-round")[0];
 var centralBody = document.getElementById("about-body");
+var hiremeBody = document.getElementById("hireme-body");
 var projectBody = document.getElementById("project-body");
+var graphicsBody = document.getElementById("graphics-body");
+
 var rightPanelContents =
     '<div class="option-list">'
-  + '    <a href="index.html"><p>Home</p></a>'
-  + '    <a href="graphics.html"><p>Graphics</p></a>'
-  + '    <a href="hireme.html"><p style="color: red;">Hire Me</p></a>'
+  + '    <p id="home-ele">Home</p>'
+  + '    <p id="graphics-ele">Graphics</p>'
+  + '    <p id="hireme-ele" style="color: red;">Hire Me</p>'
   + '</div>'
   + '<div class="options-bottom">'
   /* Youtube phase out
@@ -21,26 +24,60 @@ var rightPanelContents =
   + '</div>'
 ;
 
+let scrollAction = () => {  //scroll from click
+  let homeButton = document.getElementById("home-ele");
+  let graphicsButton = document.getElementById("graphics-ele");
+  let hiremeButton = document.getElementById("hireme-ele");
+
+
+  homeButton.addEventListener('click', function(){
+      var homeElement = document.getElementById("about-body");
+      homeElement.scrollIntoView("smooth");
+  });
+
+  graphicsButton.addEventListener('click', function(){
+      var graphicsElement = document.getElementById("graphics-body");
+      graphicsElement.scrollIntoView("smooth");
+  });
+
+  hiremeButton.addEventListener('click', function(){
+      var hiremeElement = document.getElementById("hireme-body");
+      hiremeElement.scrollIntoView("smooth");
+  });
+}
+
 threeBar.addEventListener("click" , function(){
   if(rightPanel.style.width == 0){
     rightPanel.innerHTML = rightPanelContents;
     rightPanel.style.width = "300px";
     rightPanel.style.display = "block";
     centralBody.style.marginRight = "370px";
+    hiremeBody.style.marginRight = "370px";
     projectBody.style.marginRight = "370px";
+    graphicsBody.style.marginRight = "370px";
+
+    scrollAction();
   }
   else if(centralBody.style.marginRight == "70px"){
     rightPanel.innerHTML = rightPanelContents;
     rightPanel.style.width = "300px";
     rightPanel.style.display = "block";
+    hiremeBody.style.marginRight = "370px";
     centralBody.style.marginRight = "370px";
     projectBody.style.marginRight = "370px";
+    graphicsBody.style.marginRight = "370px";
+
+    scrollAction();
   }
   else{
     rightPanel.innerHTML = "";
     rightPanel.style.width = "0px";
+    hiremeBody.style.marginRight = "70px";
     centralBody.style.marginRight = "70px";
     projectBody.style.marginRight = "70px";
+    graphicsBody.style.marginRight = "70px";
+
+    scrollAction();
   }
 });
 
@@ -48,7 +85,9 @@ rightPanel.addEventListener("mouseleave", function(){
   rightPanel.innerHTML = "";
   rightPanel.style.width = "0px";
   centralBody.style.marginRight = "70px";
+  hiremeBody.style.marginRight = "70px";
   projectBody.style.marginRight = "70px";
+  graphicsBody.style.marginRight = "70px";
 });
 
 //adds entries to project list on project.html
