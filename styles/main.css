@@ -349,6 +349,22 @@ html {
   }
 }
 
+#home-ele:hover{
+  cursor: pointer;
+  color: orange
+}
+#graphics-ele:hover{
+  cursor: pointer;
+  color: orange
+}
+#hireme-ele{
+  color: red;
+}
+#hireme-ele:hover{
+  cursor: pointer;
+  color: orange
+}
+
 @media(max-width: 540px){
   html{ font-size: 85%; }
 

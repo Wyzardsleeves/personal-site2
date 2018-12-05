@@ -10,7 +10,7 @@ var rightPanelContents =
     '<div class="option-list">'
   + '    <p id="home-ele">Home</p>'
   + '    <p id="graphics-ele">Graphics</p>'
-  + '    <p id="hireme-ele" style="color: red;">Hire Me</p>'
+  + '    <p id="hireme-ele">Hire Me</p>'
   + '</div>'
   + '<div class="options-bottom">'
   /* Youtube phase out
