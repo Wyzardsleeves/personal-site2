@@ -5,6 +5,13 @@ var theHnp = {
   projectUrl: 'https://thehnp.herokuapp.com/'
 };
 
+let barnesTire = {
+  title: 'Bares Tire',
+  description: 'Contract site built for a local buisness',
+  projectImageUrl: 'assets/wheel.png',
+  projectUrl: 'https://barneskingtire.github.io/spindale/'
+};
+
 var cryptoCentral = {
   title: 'Crypto Central',
   description: 'React.js project using AJAX.',
@@ -75,4 +82,4 @@ var youBookEmail = {
   projectUrl: 'https://wyzardsleeves.github.io/youbook-email/'
 };
 
-var projectEntries = [fortressDefenders, cryptoCentral, youBookEmail, emailPractice2, mockipedia, mockPong, shoePromo, mockItOff, mockChat, psdTest1];
+var projectEntries = [fortressDefenders, cryptoCentral, barnesTire, youBookEmail, emailPractice2, mockipedia, mockPong, shoePromo, mockItOff, mockChat, psdTest1];
